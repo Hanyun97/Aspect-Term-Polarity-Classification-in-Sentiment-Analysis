@@ -8,8 +8,6 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
-import argparse
-import time
 
 
 class ABSADataset(Dataset):
