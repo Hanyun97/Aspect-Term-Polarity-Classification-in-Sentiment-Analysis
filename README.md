@@ -51,13 +51,7 @@ This project implements an ABSA classifier for the DSBA Master's NLP Lecture 202
 - Processes input data similarly to training
 - Returns predicted sentiment labels for given instances
 
-## Usage
-1. Ensure all required libraries are installed.
-2. Place the data files (`traindata.csv` and `devdata.csv`) in the `data/` directory.
-3. Run the tester script:
-   ```bash
-   cd src
-   python tester.py
+
 
 ## Results
 The Aspect-Based Sentiment Analysis classifier achieved an accuracy range of 82.18% to 86.70% on the development set, demonstrating strong performance in predicting sentiment polarities for specific aspects in sentences. This accuracy was achieved using a fine-tuned DistilBERT model, which efficiently balanced performance. The early stopping mechanism typically led to convergence within 3-5 epochs, effectively preventing overfitting. 
